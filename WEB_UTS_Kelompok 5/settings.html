@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notion </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="switch.css">
+</head>
+<body>
+    <div class="container">
+        <!-- content -->
+        <div class="content" style="height: 800px;">
+            <div class="setting-box" id="box4">
+                <div class="setting-line">
+                    <div class="line11" id="line3"></div>
+                    <div class="line12" id="line3"></div>
+                    <div class="line13" id="line3"></div>
+                    <div class="line14" id="line3"></div>
+                    <div class="line15" id="line3"></div>
+                    <div class="line16" id="line3"></div>
+                </div>
+                <div class="setting-text">
+                    <a href="###">
+                        <h2 class="text-s1" id="setting-text" > Setelan akun </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow1" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s2" id="setting-text"> Ganti Nama </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow2" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s3" id="setting-text"> Notifikasi Perangkat </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow3" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s4" id="setting-text"> Notifikasi Email </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow4" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s5" id="setting-text"> ID Pengguna Google </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow5" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s6" id="setting-text"> Laporkan Error </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow5" id="arrow">
+                    </a>
+                    <a href="###">
+                        <h2 class="text-s7" id="setting-text"> Tentang </h2>
+                        <img src="media/angle-right-free-icon-font.svg" class="arrow5" id="arrow">
+                    </a>
+                </div>
+                <div class="setting-switch">
+                    <a href="###" class="switch1">
+                        <div class="switch"></div>
+                    </a>
+                    <a href="###" class="switch2">
+                        <div class="switch"></div>
+                    </a>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script>
+                    $(document).ready(function(){
+                        $(".switch").click(function(){
+                            $(this).toggleClass("switchOn");
+                        })
+                    })
+                </script>
+            </div>
+            <h2 class="schedule"> Settings </h2>
+            <h4 class="schedule"> Notion </h4>
+        </div>
+    </div>
+    <!-- topbar -->
+    <div class="topbar">
+        <div class="line"></div>
+        <form action="###" method="post">
+            <input type="text" class="search" id="box2" placeholder="Search...">	
+        </form>
+    </div>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <a href="home.html">
+            <div class="logo">
+                <img src="https://cdn.worldvectorlogo.com/logos/notion-1-1.svg" class="img2">
+                <h4 class="text5"> <b> Notion </b> </h4>
+            </div>
+        </a>
+        <a href="Profil.html">
+            <div class="profile" id="box2">
+                <div class="pp" id="circle">
+                    <img src="media/hibat.illah.jpg" class="img1" id="circle">
+                </div>
+                <h4 class="text3"> M. Hibatillah </h4>
+                <h4 class="text4"> 1 SI C </h4>
+            </div>
+        </a>
+        <div class="menu">
+            <a href="home.html">
+                <img src="media/home-free-icon-font (1).svg" class="img11" id="img-menu">
+                <p class="text11"> Class </p>
+            </a>
+            <a href="task.html">
+                <img src="media/book-alt-free-icon-font.svg" class="img12" id="img-menu">
+                <p class="text12"> Tasks </p>
+            </a>
+            <a href="notif.html">
+                <img src="media/bell-free-icon-font.svg" class="img13" id="img-menu">
+                <p class="text13"> Notifications </p>
+            </a>
+            <a href="schedule.html">
+                <img src="media/calendar-free-icon-font (1).svg" class="img14" id="img-menu">
+                <p class="text14"> Schedules </p>
+            </a>
+            <a href="archive.html">
+                <img src="media/box-free-icon-font.svg" class="img15" id="img-menu">
+                <p class="text15"> Archives </p>
+            </a>
+            <a href="settings.html">
+                <img src="media/settings-sliders-free-icon-font (1).svg" class="img16" id="img-menu">
+                <p class="text16"> Settings </p>
+            </a>
+            <a href="logout.html">
+                <img src="media/sign-out-alt-free-icon-font.svg" class="img17" id="img-menu">
+                <p class="text17"> Log Out </p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

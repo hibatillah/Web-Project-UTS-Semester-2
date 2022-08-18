@@ -1,0 +1,40 @@
+.switch{
+    width: 80px;
+    margin: auto;
+    height: 45px;
+    background: #e5e5e5;
+    cursor: pointer;
+    border-radius: 100px;
+    position: relative;
+    z-index: 0;
+}
+.switch:before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 45px;
+    background: #fff;
+    z-index: 1;
+    border-radius: 95px;
+}
+.switch:after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 2;
+    background: #fff;
+    position: absolute;
+    transition-duration: 500ms;
+    top: 7px;
+    left: 8px;
+    box-shadow: 0 2px 5px #999;
+}
+.switchOn, .switchOn:before{
+    background: #4cd964
+}
+.switchOn:after{
+    left: 45px;
+}
